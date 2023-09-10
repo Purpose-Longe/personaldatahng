@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+background: url(img/bg.png) no-repeat ;
+background-attachment: fixed;
+background-size:cover;
+}
+
+
+.githubURL{ 
+    margin-left: 1030px;
+    margin-top: 30px;
+}
+
+.slackDisplayImage img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.slackDisplayImage {
+    padding-left: 130px;
+    margin-top: 27px;
+}
+
+.slackUserName {
+    color: #FFF;
+    font-family: Josefin Slab;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 190px;
+}
+
+.myTrack {
+    display: flex;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 620px; 
+    margin-top: -68px;
+}
+
+.line-container {
+    position: relative;
+}
+.line {
+    position: absolute;
+    border: none;
+    height: 30px;
+    background-color: white;
+    width: 3px;
+    margin-top: -65px;
+    right: 450px;
+}
+
+.container{
+    position: relative;
+    margin-left: 950px;
+    margin-top: 50px;
+}
+
+.day {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.time {
+    position:absolute;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    right: 26px;
+}
