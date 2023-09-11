@@ -9,7 +9,7 @@ function updateUTCTime() {
     const seconds = String(currentDate.getUTCSeconds()).padStart(2, '0');
     const milliseconds = String(currentDate.getUTCMilliseconds()).padStart(3, '0');
     const currentUTCDay = currentDate.toLocaleDateString('en-US', dayOptions);
-    const currentUTCTime = `${hours}:${minutes}:${seconds}.${milliseconds} UTC`;
+    const currentUTCTime = `${hours}:${minutes}:${seconds}.${milliseconds}`;
 
     utcDayElement.textContent = ` ${currentUTCDay}`;
     utcTimeElement.textContent = currentUTCTime;
