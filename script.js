@@ -17,5 +17,5 @@ function updateUTCTime() {
 
 updateUTCTime();
 
-setInterval(updateUTCTime, 2000);
+setInterval(updateUTCTime, 100);
 

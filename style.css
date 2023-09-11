@@ -14,41 +14,45 @@ background-size:cover;
 
 
 .githubURL{ 
-    margin-left: 1030px;
+    margin-left: 699px;
     margin-top: 30px;
 }
 
 .slackDisplayImage img {
     position: relative;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .slackDisplayImage {
     padding-left: 130px;
-    margin-top: 27px;
+    margin-top: 6px;
 }
 
 .slackUserName {
     color: #FFF;
     font-family: Josefin Slab;
-    font-size: 120px;
+    font-size: 100px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding-left: 190px;
 }
 
+.track {
+  position: relative;
+  margin-top: -40px;
+}
 .myTrack {
-    display: flex;
+    position: absolute;
     color: #FFF;
     font-family: Jost;
-    font-size: 25px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-left: 620px; 
-    margin-top: -68px;
+    padding-left: 530px; 
+    top: -14px;
 }
 
 .line-container {
@@ -57,35 +61,118 @@ background-size:cover;
 .line {
     position: absolute;
     border: none;
-    height: 30px;
+    height: 23px;
     background-color: white;
-    width: 3px;
-    margin-top: -65px;
-    right: 450px;
+    width: 2.5px;
+    margin-top: -51px;
+    right: 190px;
 }
 
 .container{
     position: relative;
-    margin-left: 950px;
-    margin-top: 50px;
+    
 }
 
 .day {
+    position:absolute;
     color: #FFF;
     font-family: Jost;
-    font-size: 24px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    right: -26px;
+    top: 50px;
+   
 }
 
 .time {
     position:absolute;
     color: #FFF;
     font-family: Jost;
-    font-size: 24px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
-    right: 26px;
+    right: -26px;
+    bottom: -99px;
+
 }
+
+.mobileImage {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background: url(img/mobile.png) no-repeat ;
+    background-attachment: fixed;
+    background-size:cover;
+    }
+
+    .mobileImage img{
+      position: relative;
+    }
+    .mobileImage {
+      position: absolute;
+      display: block;
+      width: 100%;
+      margin-top: 43%;
+      left: 1%;
+    }
+
+    .githubURL {
+      margin-left: 350px;
+      margin-top: 16px; 
+    }
+
+    .githubURL i.fa-github{
+      transform: scale(1.9);
+      position: relative;
+      top: 30px;
+    }
+  
+    .slackDisplayImage {
+      display: none;
+    }
+  
+    .slackUserName {
+      font-size: 60px;
+      padding-left: 20px; 
+      margin-top: 50px;
+    }
+  
+    .myTrack {
+      font-size: 18px; 
+      padding-left: 138px;
+      margin-top: 38px; 
+      font-size: 29px;
+    }
+  
+    .line {
+      display: none;
+      margin-top: -35px; 
+      right: 50px; 
+    }
+  
+    .container { 
+      margin-top: 10px; 
+    }
+  
+    .day {
+      font-size: 29px; 
+      left: 17px;
+      top: 97px; 
+    }
+  
+    .time {
+      font-size: 29px; 
+      left: 17px;
+      top: 127px; 
+    }
+  }
+  
